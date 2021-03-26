@@ -1,16 +1,25 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# # Topic of the project : Sentiment analysis
+# 
+
+# In this we are going to write the code for how to extract comments form youtube
+
+# # From pip install the libaray google-api-python-client
+# 
+
+# In[1]:
 
 
-#From pip install the libaray google-api-python-client
 import googleapiclient
 from googleapiclient.errors import HttpError
 import os
 
 
-# In[3]:
+# # writting the code for extracting youtube comments.
+
+# In[ ]:
 
 
 from googleapiclient.discovery import build
